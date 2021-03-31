@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const App = () => {
   const [ userName, setUserName ] = useState('')
   const [ password, setPassword ] = useState('')
-
+  const [ showPassword, setShowPassword ] = useState('')
   return (
     <div>
       <input
