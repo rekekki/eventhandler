@@ -1,0 +1,130 @@
+commit dd8ac02dfea1391ddb87e323e166544ca1e9817f
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:29:05 2021 +0300
+
+    changed input from text to password
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 901652aff520df97b824ee7f65fc001776af96ae
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:28:14 2021 +0300
+
+    copied username declarations as password ones and added another input
+
+ src/App.js | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit 2bb33c86f6f20fb416748c5505c643dd25016c49
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:23:57 2021 +0300
+
+    cleaned the onChange function, deleted extra curly braces
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ec847dcf83aca9757db97e83f7687eda86437091
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:22:31 2021 +0300
+
+    changed console.log to using setUserName and the parameter e.target.value
+
+ src/App.js | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 494ba4238bc907d85bd5d00872179caebe408ab9
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:20:29 2021 +0300
+
+    using the value of the input.Switched it from empty string to userName
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 136c929eec4246591f7658282da6064a7943f1e6
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:18:00 2021 +0300
+
+    added .value to parameter e.target. Value returns the value from wherever the cursor is
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c4ce24454e8504a14bd606f6df31f7ceb62fef40
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:16:39 2021 +0300
+
+    added .target to parameter e
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 74552f1431aa8e5d42ff601a412d838099c94153
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:14:55 2021 +0300
+
+    parameter of e entered to onChange function to demonstrate all the happenigs in the background
+
+ src/App.js | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit a7f8fb71739276ad95201cc29a14ea391891423a
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:11:46 2021 +0300
+
+    created an input element with type, placeholder, value and function shell
+
+ src/App.js | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit b9ebcd0cecd102543019aed8f4e134fb9d93eff7
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:08:33 2021 +0300
+
+    imported statehook and declared a function for it
+
+ src/App.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 153568c6d95815f686b58ed43a1d454eb6bc274b
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:04:32 2021 +0300
+
+    initialized new app with basic layout
+
+ src/App.css            | 38 --------------------------------------
+ src/App.js             | 26 ++++++--------------------
+ src/App.test.js        |  8 --------
+ src/index.js           | 20 +++++---------------
+ src/logo.svg           |  1 -
+ src/reportWebVitals.js | 13 -------------
+ src/setupTests.js      |  5 -----
+ 7 files changed, 11 insertions(+), 100 deletions(-)
+
+commit f2ebbfdf1cfce297feab1cdc4d26dcc9fad80699
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 17:59:27 2021 +0300
+
+    Initialize project using Create React App
+
+ .gitignore             |    23 +
+ README.md              |    70 +
+ package-lock.json      | 38210 +++++++++++++++++++++++++++++++++++++++++++++++
+ package.json           |    38 +
+ public/favicon.ico     |   Bin 0 -> 3870 bytes
+ public/index.html      |    43 +
+ public/logo192.png     |   Bin 0 -> 5347 bytes
+ public/logo512.png     |   Bin 0 -> 9664 bytes
+ public/manifest.json   |    25 +
+ public/robots.txt      |     3 +
+ src/App.css            |    38 +
+ src/App.js             |    25 +
+ src/App.test.js        |     8 +
+ src/index.css          |    13 +
+ src/index.js           |    17 +
+ src/logo.svg           |     1 +
+ src/reportWebVitals.js |    13 +
+ src/setupTests.js      |     5 +
+ 18 files changed, 38532 insertions(+)
