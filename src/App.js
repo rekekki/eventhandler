@@ -18,6 +18,12 @@ const App = () => {
       value={password}
       onChange={(e) => setPassword(e.target.value)} 
       />
+      <h2>
+        {userName}
+      </h2>
+      <h2>
+        {password}
+      </h2>
     </div>
   )
 }
