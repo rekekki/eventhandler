@@ -24,7 +24,7 @@ const App = () => {
       <h2>
         {password}
       </h2>
-      <button>Show/Hide password</button>
+      <button onClick={() => {}}>Show/Hide password</button>
     </div>
   )
 }
