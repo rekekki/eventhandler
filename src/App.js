@@ -8,8 +8,9 @@ const App = () => {
       type='text'
       placeholder='Enter username'
       value=''
-      onChange={() => {}} />
-      test
+      onChange={(e) => {
+        console.log(e)
+      }} />
     </div>
   )
 }
