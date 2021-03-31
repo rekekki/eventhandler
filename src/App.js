@@ -7,7 +7,7 @@ const App = () => {
       <input
       type='text'
       placeholder='Enter username'
-      value=''
+      value={userName}
       onChange={(e) => {
         console.log(e.target.value)
       }} />
