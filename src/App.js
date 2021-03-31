@@ -8,9 +8,7 @@ const App = () => {
       type='text'
       placeholder='Enter username'
       value={userName}
-      onChange={(e) => {
-        console.log(e.target.value)
-      }} />
+      onChange={(e) => { setUserName(e.target.value)}} />
     </div>
   )
 }
