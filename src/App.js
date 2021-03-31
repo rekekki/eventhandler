@@ -2,13 +2,22 @@ import React, { useState } from 'react'
 
 const App = () => {
   const [ userName, setUserName ] = useState('')
+  const [ password, setPassword ] = useState('')
+
   return (
     <div>
       <input
       type='text'
       placeholder='Enter username'
       value={userName}
-      onChange={(e) => setUserName(e.target.value)} />
+      onChange={(e) => setUserName(e.target.value)} 
+      />
+      <input
+      type='text'
+      placeholder='Enter password'
+      value={password}
+      onChange={(e) => setPassword(e.target.value)} 
+      />
     </div>
   )
 }
