@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const App = () => {
   const [ userName, setUserName ] = useState('')
   const [ password, setPassword ] = useState('')
-  const [ showPassword, setShowPassword ] = useState('')
+  const [ showPassword, setShowPassword ] = useState(true)
   return (
     <div>
       <input
@@ -24,7 +24,7 @@ const App = () => {
       <h2>
         {password}
       </h2>
-      <button onClick={() => {}}>Show/Hide password</button>
+      <button onClick={() => setShowPassword(!showPassword)}>Show/Hide password</button>
     </div>
   )
 }
