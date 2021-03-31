@@ -1,3 +1,100 @@
+commit 0adcc5eafdb3492e5c23d06d493be03836c8042b
+Merge: 74a886e 3160dbd
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 19:02:41 2021 +0300
+
+    Merge branch 'development'
+
+commit 3160dbd7ff50599cb8da407ba5bcbd2d3e5af6d8
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 19:02:05 2021 +0300
+
+    changed password input type to ternary operator
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 36d576cd40320ba0818b2fae41f75ff8ef935b96
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 19:00:08 2021 +0300
+
+    removed 'SHOW' and used password variable in there
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e3cbbb06e5fa2946b92237b5a91eb2e42069ac53
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:58:42 2021 +0300
+
+    changed the not show value to * and a repeat function as many times as there are letters in password
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e07ef5ce5ecf6ec0f1f59a4242eba68160682bd1
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:54:37 2021 +0300
+
+    created a ternary operator. if value assigned is true ? then show one, else : show the other
+
+ src/App.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit d2b8f8055ac9352ccd75dba51cf932df95d5c987
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:50:49 2021 +0300
+
+    created a not operatot for showPassword. Now it is toggleable on/off
+
+ src/App.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 0e24579ff03dec047f63bf0e337377467fbb12e0
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:47:36 2021 +0300
+
+    declared a statehook for showpassword
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a49a15c294d5d6c244931cd96df8c38a71f668e8
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:46:06 2021 +0300
+
+    created a function shell for button functionality
+
+ src/App.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9cad042a03a3adec04c5db2a8150556b1c55135e
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:45:14 2021 +0300
+
+    created a button for toggling the password visibility
+
+ src/App.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit ebd84b3ed29104825499e2979cd83d18856703c1
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:43:49 2021 +0300
+
+    created visible elements for typing the information
+
+ src/App.js | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 74a886ed73601d02f2f4721ad32f5cbf6fba32ac
+Author: rekekki <r2101k@pm.me>
+Date:   Wed Mar 31 18:36:08 2021 +0300
+
+    created gitlog.txt
+
+ gitlog.txt | 130 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 130 insertions(+)
+
 commit dd8ac02dfea1391ddb87e323e166544ca1e9817f
 Author: rekekki <r2101k@pm.me>
 Date:   Wed Mar 31 18:29:05 2021 +0300
